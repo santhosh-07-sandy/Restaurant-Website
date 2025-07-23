@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spicy Hut - Chennai's Finest Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/fav.png" />
+  <script src="https://kit.fontawesome.com/3143154987.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  
+<header class="navbar">
+  <div class="logo">
+    <i class="fa-solid fa-pepper-hot"></i> Spicy Hut
+  </div>
+
+  <!-- Menu Toggle Icons -->
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <i id="menu-icon" class="fas fa-bars"></i>      <!-- Hamburger -->
+    <i id="close-icon" class="fas fa-times"></i>     <!-- Close X -->
+  </div>
+
+  <nav class="nav-links" id="mobileMenu">
+    <a href="#menu" onclick="closeMenu()">Menu</a>
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#location" onclick="closeMenu()">Location</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+  </nav>
+</header>
+
+
+  <section class="hero"> 
+    <a href="#menu" class="btn order-top-btn">Order Now</a>
+    <div class="hero-text">
+      <h1>Delight in Every Bite</h1>
+      <p>Authentic Spices | Fresh Ingredients | Chennai's Favorite</p>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-buttons">
+      <button onclick="showItems('breakfast')">Breakfast</button>
+      <button onclick="showItems('lunch')">Lunch</button>
+      <button onclick="showItems('dinner')">Dinner</button>
+    </div>
+    <div class="menu-grid" id="menu-grid"></div>
+  </section>
+
+  <section class="bill-section">
+    <h2>Your Bill</h2>
+    <ul id="bill-list" class="bill-list"></ul>
+    <div class="bill-summary">
+      <p><strong>Total:</strong> ₹<span id="total-amount">0</span></p>
+      <p><strong>Discount (10%):</strong> ₹<span id="discount">0</span></p>
+      <p><strong>GST (5%):</strong> ₹<span id="gst">0</span></p>
+      <p><strong>Grand Total:</strong> ₹<span id="grand-total">0</span></p>
+    </div>
+    <form id="bill-form">
+      <div class="form-group">
+        <input type="text" placeholder="Your Name" required />
+        <input type="tel" placeholder="Mobile Number" required />
+        <input type="email" placeholder="Email (optional)" />
+      </div>
+      <label>Rate Us:</label>
+      <div class="stars">
+        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+      </div>
+      <textarea rows="3" placeholder="Leave your feedback..."></textarea>
+      <button type="submit">Submit Order</button>
+    </form>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <div class="about-container">
+      <img src="images/about-food.jpg" alt="About Spicy Hut" />
+      <p>
+        Spicy Hut has been serving Chennai since 2010 with mouth-watering South Indian, North Indian, and Indo-Chinese dishes.
+        Our mission is to provide authentic flavors with top-quality ingredients in a warm and welcoming atmosphere.
+      </p>
+    </div>
+  </section>
+
+  <section class="location" id="location">
+    <h2>Visit Our Locations</h2>
+    <div class="location-cards">
+      <div class="location-card">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>456, Tambaram Highway Road,<br />Chennai - 600045</p>
+      </div>
+      <div class="location-card">
+        <i class="fas fa-phone"></i>
+        <p>Call Us: +91-xxxxxxxxxx</p>
+      </div>
+      <div class="location-card">
+        <i class="fas fa-clock"></i>
+        <p>Open Daily: 8AM - 10PM</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form action="#" class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-contact">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Spicy Hut. All Rights Reserved.</p>
+    <button id="scrollTopBtn" title="Go to top">
+      <i class="fa fa-arrow-up"></i>
+    </button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
