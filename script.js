@@ -2,14 +2,14 @@
 const menuItems = {
   breakfast: [
     { name: 'Idli Sambar', price: 40, img: 'images/idli.jpg' },
-    { name: 'Dosa', price: 50, img: 'images/dosa.jpg' },
-    { name: 'Pongal', price: 45, img: 'images/pongal.jpg' },
-    { name: 'Upma', price: 35, img: 'images/upma.jpg' },
+    { name: 'Dosa', price: 50, img: 'images/dsa.jpg' },
+    { name: 'Pongal', price: 45, img: 'images/ponl.jpg' },
+    { name: 'Upma', price: 35, img: 'images/upm.jpg' },
     { name: 'Poori Masala', price: 60, img:'images/poori.jpg' },
-    { name: 'Appam', price: 55, img: 'images/appam.jpg' },
-    { name: 'Vada', price: 20, img: 'images/vada.jpg' },
-    { name: 'Kesari', price: 25, img: 'images/kesari.jpg' },
-    { name: 'Tea', price: 15, img: 'images/tea.jpg' },
+    { name: 'Appam', price: 55, img: 'images/apm.jpg' },
+    { name: 'Vada', price: 20, img: 'images/vda.jpg' },
+    { name: 'Kesari', price: 25, img: 'images/ksr.jpg' },
+    { name: 'Tea', price: 15, img: 'images/t.jpg' },
     { name: 'Coffee', price: 20, img: 'images/coffee.jpg' }
   ],
   lunch: [
