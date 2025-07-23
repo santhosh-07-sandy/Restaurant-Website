@@ -1,11 +1,11 @@
 // === Menu Data ===
 const menuItems = {
   breakfast: [
-    { name: 'Idli Sambar', price: 40, img: 'images/idli Sambar.jpg' },
+    { name: 'Idli Sambar', price: 40, img: 'images/idli.jpg' },
     { name: 'Dosa', price: 50, img: 'images/dosa.jpg' },
     { name: 'Pongal', price: 45, img: 'images/pongal.jpg' },
     { name: 'Upma', price: 35, img: 'images/upma.jpg' },
-    { name: 'Poori Masala', price: 60, img:'images/Poori Masala.jpg' },
+    { name: 'Poori Masala', price: 60, img:'images/Poori.jpg' },
     { name: 'Appam', price: 55, img: 'images/appam.jpg' },
     { name: 'Vada', price: 20, img: 'images/vada.jpg' },
     { name: 'Kesari', price: 25, img: 'images/kesari.jpg' },
